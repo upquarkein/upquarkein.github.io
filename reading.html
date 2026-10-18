@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading notes | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Math support: write inline math as \( ... \) and display math as \[ ... \] -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header class="site">
+    <nav>
+      <a class="brand" href="index.html">Your Name</a>
+      <a href="index.html#interests">Research interests</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#cv">CV</a>
+      <a class="active" href="reading.html">Reading notes</a>
+      <a href="questions.html">Questions &amp; insights</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Reading notes</h1>
+    <p class="tagline">Papers and ideas on quantum simulation I am working through: my synopsis, figures, and open questions.</p>
+
+    <!--
+      HOW TO ADD A NEW PAPER:
+      1. Copy one whole <article class="card"> ... </article> block below.
+      2. Paste it at the TOP of the list (newest first).
+      3. Edit title, tags, summary, questions.
+      4. For figures: upload the image into an "images" folder in the repo
+         and point <img src="images/yourfile.png"> at it.
+    -->
+
+    <article class="card" id="paper-dmrg-example">
+      <h3>Paper title goes here (e.g. a DMRG paper)</h3>
+      <p class="meta">
+        Authors · Year · <a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv:XXXX.XXXXX</a><br>
+        <span class="tag">DMRG</span><span class="tag">tensor networks</span>
+        <span class="status">Status: reading</span>
+      </p>
+
+      <h4>One-line summary</h4>
+      <p>What does this paper do, in a sentence?</p>
+
+      <h4>Key ideas</h4>
+      <ul>
+        <li>Main idea 1. Inline math example: \( H = \sum_i h_{i,i+1} \).</li>
+        <li>Main idea 2.</li>
+      </ul>
+
+      <figure>
+        <img src="images/example.png" alt="Describe the graph">
+        <figcaption>Fig. from the paper (or your own reproduction): what it shows and why it matters.</figcaption>
+      </figure>
+
+      <h4>Questions / things I don't get yet</h4>
+      <div class="q">Question 1: ...</div>
+      <div class="q">Question 2: ...</div>
+
+      <h4>Ideas to try</h4>
+      <ul>
+        <li>A small numerical experiment, a variation, a connection to something else.</li>
+      </ul>
+    </article>
+
+    <article class="card" id="paper-nqs-example">
+      <h3>Another paper (e.g. neural quantum states)</h3>
+      <p class="meta">
+        Authors · Year · <a href="#">link</a><br>
+        <span class="tag">neural quantum states</span>
+        <span class="status">Status: to read</span>
+      </p>
+      <p>Fill in as you read. Leave sections out if you don't need them.</p>
+    </article>
+  </main>
+
+  <footer>Notes are work in progress and may contain mistakes.</footer>
+</body>
+</html>
