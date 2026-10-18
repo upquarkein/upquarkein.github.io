@@ -1,10 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is my first GitHub Pages site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Physics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <nav>
+      <a class="brand" href="index.html">Your Name</a>
+      <a href="#interests">Research interests</a>
+      <a href="#projects">Projects</a>
+      <a href="#cv">CV</a>
+      <a href="reading.html">Reading notes</a>
+      <a href="questions.html">Questions &amp; insights</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Your Name</h1>
+    <p class="tagline">BS-MS Physics student · computational quantum many-body physics</p>
+    <p>
+      Write 2-3 sentences about who you are and what you are curious about.
+      Add an email or links, e.g. <a href="mailto:you@example.com">you@example.com</a> ·
+      <a href="https://github.com/upquarkein">GitHub</a>
+    </p>
+
+    <!-- (2) RESEARCH INTERESTS -->
+    <h2 id="interests">Research interests</h2>
+    <ul>
+      <li><strong>Quantum simulation:</strong> one line on what draws you to it.</li>
+      <li><strong>Tensor networks (e.g. DMRG):</strong> one line.</li>
+      <li><strong>Neural quantum states:</strong> one line.</li>
+      <li>Add or remove items as your interests change.</li>
+    </ul>
+
+    <!-- (4) PROJECTS -->
+    <h2 id="projects">Projects</h2>
+
+    <div class="card">
+      <h3>Project title</h3>
+      <p class="meta">Semester / year · Supervisor (optional) · Tools: Julia, Python, ...</p>
+      <p>What was the question, what did you do, what did you find? Keep it to 3-4 sentences.</p>
+      <p>
+        <a href="#">Report (PDF)</a> ·
+        <a href="#">Code</a> ·
+        <a href="#">Slides</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Another project</h3>
+      <p class="meta">Semester / year · Tools</p>
+      <p>Short description.</p>
+    </div>
+
+    <!-- (1) CV -->
+    <h2 id="cv">CV</h2>
+    <p><a href="cv.pdf">Download full CV (PDF)</a></p>
+
+    <ul class="timeline">
+      <li>
+        <span class="when">20XX - present</span>
+        <strong>BS-MS Physics</strong>, Your Institute
+      </li>
+      <li>
+        <span class="when">20XX - 20XX</span>
+        <strong>Research assistant</strong>, Group / Supervisor
+      </li>
+      <li>
+        <span class="when">Skills</span>
+        Julia, Python, LaTeX, ... (list what you actually use)
+      </li>
+    </ul>
+  </main>
+
+  <footer>Last updated October 2026</footer>
+</body>
 </html>
